@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<style>
+    *{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .section1{
+        background-image: url(/images/Untitled-1\ copy.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120%;
+    }
+    .section1 form input::placeholder{
+        color: white;
+    }
+    .section1 form input{
+        border-bottom: 2px solid white;
+    }
+    .bodyhead{
+        border-bottom: rgb(255, 115, 0) solid 4px;
+    }
+    .navigation button{
+        background-color: rgb(255, 115, 0);S
+    }
+</style>
+<body class="section1 pb-28">
+    <header class="navigation">
+        <form action="/search.php">
+            <input class="text-white inline-block w-1/2 float-right mt-3 mr-10 py-4 bg-transparent outline-none" type="search" name="searchbar" id="websearch" placeholder=" Search Here">
+        </form>
+        <h1 class="navhead inline-block text-3xl mt-7 ml-8 pb-2 text-white">Learn with Lorem</h1>
+        <br><br><br><br><br><br><br><br>
+        <h1 class="bodyhead inline-block text-6xl text-white ml-20 pb-4">Learn with<br> Lorem.</h1>
+        <br><br>
+        <p class="text-white ml-20">Lorem ipsum dolor sit amet consectetur<br>
+         adipisicing elit. Cumque, laborum.</p> 
+         <br><br>
+         <button class="px-6 py-4 ml-20 rounded-[30px] text-white hover:text-black hover:bg-slate-400   ">Browse More</button>
+    </header>
+</body>
+</html>
